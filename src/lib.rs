@@ -49,7 +49,7 @@ impl Number {
         if let Ok(value) = s.parse::<f64>() {
             return Ok(Self::from_float(value));
         }
-        Err(format!("无法解析 '{}' 为数字", s))
+        Err(format!("Cannot parse '{}' as a number", s))
     }
     pub fn type_name(&self) -> &'static str {
         match self {
