@@ -1,0 +1,9 @@
+[package]
+name = "my_r_num"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/gylove1994/my_r_num"
+authors = ["gylove1994 <gylove1994@acgsteps.com>"]
+
+[dependencies]
