@@ -5,5 +5,6 @@ edition = "2024"
 license = "MIT"
 repository = "https://github.com/gylove1994/my_r_num"
 authors = ["gylove1994 <gylove1994@acgsteps.com>"]
+description = "A Rust numeric type library that supports automatic optimization for various integer/float types, special values (NaN, positive/negative infinity), and implements common arithmetic operations and type conversions."
 
 [dependencies]
